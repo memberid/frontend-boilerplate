@@ -1,9 +1,10 @@
 // Font family
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$body-font-family-primary: 'Work Sans',sans-serif !default;
-$body-font-family-secondary: 'Yeseva One',cursiv !default;
+$body-font-family-primary: 'Poppins',
+sans-serif !default;
+$body-font-family-secondary: 'Yeseva One',
+cursiv !default;
 
 // Font weight
 $body-font-weight-primary: 300 !default;

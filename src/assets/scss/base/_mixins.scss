@@ -32,20 +32,20 @@
   }
 }
 
+@mixin for-desktop-tablet {
+  @media screen and (min-width: $tablet-max) {
+    @content;
+  }
+}
+
 @mixin for-tablet {
   @media (min-width: $tablet-min) and (max-width: $desktop-min) {
     @content;
   }
 }
 
-@mixin for-mobile {
-  @media screen and (max-width: $mobile-max) {
-    @content;
-  }
-}
-
 @mixin for-min-mobile {
-  @media screen and (max-width: $mobile-min) {
+  @media screen and (min-width: $mobile-min) {
     @content;
   }
 }

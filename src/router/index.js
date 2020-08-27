@@ -1,15 +1,18 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Member from "@/modules/member/routes";
+import Login from "@/modules/login/routes";
+import Admin from "@/modules/admin/routes";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
-    path:"/",
-    redirect:"/member"
+const routes = [{
+    path: "/",
+    redirect: {
+      name: 'Login'
+    }
   },
-  Member
+  Login,
+  Admin
 ];
 
 const router = new VueRouter({

@@ -1,5 +1,5 @@
 <template>
-  <h1>List Member Page</h1>
+  <h1>Form Member Page</h1>
 </template>
 
 <script>
